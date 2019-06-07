@@ -1,10 +1,10 @@
 <?php
 
     // Conexion a la base de datos
-	define('DB_HOST','crudspaceone-mysqldbserver.mysql.database.azure.com');
-	define('DB_USER','edsonr@crudapp');
-	define('DB_PASS','Qwerty123');
-    define('DB_NAME','crudapp');
+	define('DB_HOST','crudspac.mysql.database.azure.com');
+	define('DB_USER','edson@crudspac');
+	define('DB_PASS','qwerty&16');
+    define('DB_NAME','crudspac');
     
     //Database=crudapp;
     //Data Source=crudspaceone-mysqldbserver.mysql.database.azure.com;
