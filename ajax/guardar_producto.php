@@ -15,7 +15,7 @@
     $query = mysqli_query($con,$sql);
     // if product has been added successfully
     if ($query) {
-        $messages[] = "El usuario ha sido guardado con éxito.";
+        $messages[] = "cokin ya estuvo";
     } else {
         $errors[] = "Lo sentimos, el registro falló. Por favor, regrese y vuelva a intentarlo.";
     }
