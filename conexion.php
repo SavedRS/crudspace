@@ -1,15 +1,15 @@
 <?php
 
     // Conexion a la base de datos
-	define('DB_HOST','crudapp2019.mysql.database.azure.com');
-	define('DB_USER','josesitomyapp@crudapp2019');
-	define('DB_PASS','Josesito97');
+	define('DB_HOST','crudspaceone-mysqldbserver.mysql.database.azure.com');
+	define('DB_USER','edsonr@crudapp');
+	define('DB_PASS','Qwerty123');
     define('DB_NAME','crudapp');
     
     //Database=crudapp;
-    //Data Source=crudapp2019.mysql.database.azure.com;
-    //User Id=josesitomyapp@crudapp2019;
-    //Password=Josesito97
+    //Data Source=crudspaceone-mysqldbserver.mysql.database.azure.com;
+    //User Id=edsonr@crudapp;
+    //Password=Qwerty123
 
 	# conectare la base de datos
     $con=@mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
